@@ -1,4 +1,5 @@
-# IT4931-bigdata-Movie-processing
+# BIGDATA_20242_GROUP_24
+
 Course project.
 
 The crawled movie data is streamed and processed by Kafka and PySpark. Storing data in MongoDB and visualizing by Elasticsearch Kibana. All the processes run on docker-compose windows 10. 
@@ -9,7 +10,7 @@ Docker, MongoDB, Pyspark
 ### Usage
 #### Run docker-compose
 ```
-IT4931-bigdata-Movie-processing\docker> docker-compose up
+BIGDATA_20242_GROUP_24\docker> docker-compose up
 ```
 The codes in `app` are mounted in spark-master container 
 #### Access the broker 1 container to create topic
@@ -100,4 +101,3 @@ Run the producers and consumers
 
 #### Visualize crawled data on Kibana
 Access `localhost:5601` and create diagram on index movie and actor. Read the Kibana tutorial for more detail.
-![Kibana visualization](asset/kibana_visualization.png)
